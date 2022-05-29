@@ -128,9 +128,9 @@ export const Navbar = () => {
 
           <Box sx={{ flexGrow: 0 }}>
             <MaterialUISwitch
-              sx={{ m: 1 }}
-              //   checked={isDark}
-              //   onChange={(e) => setIsDark(!isDark)}
+            //   sx={{ m: 1 }}
+            //   checked={isDark}
+            //   onChange={(e) => setIsDark(!isDark)}
             />
             <Tooltip title="Open settings">
               <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
